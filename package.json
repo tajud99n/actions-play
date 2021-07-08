@@ -5,7 +5,7 @@
 	"main": "index.js",
 	"scripts": {
 		"start": "nodemon dist/app.js",
-		"test": "SET \"NODE_ENV=test\" && mocha src/test/**/*.test.js"
+		"test": "mocha __tests__/*.test.js"
 	},
 	"keywords": [],
 	"author": "",
